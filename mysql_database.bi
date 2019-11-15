@@ -78,6 +78,6 @@ function mysql_database.get_item(index as uinteger) as string
     return *this.row[index]
 end function
 
-sub mysql_database.Close()
+sub mysql_database.close()
     mysql_close(this.connection)
 end sub
