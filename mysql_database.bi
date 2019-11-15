@@ -81,6 +81,3 @@ end function
 sub mysql_database.Close()
     mysql_close(this.connection)
 end sub
-
-print(sizeof(mysql_database))
-sleep
